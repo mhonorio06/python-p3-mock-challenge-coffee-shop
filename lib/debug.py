@@ -7,5 +7,8 @@ from classes.many_to_many import Coffee
 
 if __name__ == '__main__':
     print("HELLO! :) let's debug")
+coffee = Coffee("Black")
+order = Order("Manny", "Black", 7.75)
+coffee.orders()
 
-    ipdb.set_trace()
+ipdb.set_trace()
